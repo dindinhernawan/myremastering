@@ -1,0 +1,80 @@
+#!/bin/bash
+#edit issue in the /etc/issue
+cd $HOME/livecdtmp/edit/etc
+sudo nano issue
+
+#sample
+Xenta OS 1.3 Arok \n \l
+
+#edit issue in the /etc/issue.net
+cd $HOME/livecdtmp/edit/etc
+sudo nano issue.net
+
+#sample
+Xenta OS 1.3 Arok
+
+#edit os release in the /usr/lib/os-release link > /etc/os-release
+cd $HOME/livecdtmp/edit/etc
+sudo nano os-release
+
+#sample
+NAME="Xenta OS"
+VERSION="1.3 (Arok)"
+ID=xentaos
+ID_LIKE=ubuntu
+PRETTY_NAME="Xenta OS 1.3"
+VERSION_ID="1.3"
+HOME_URL="http://www.xentaos.org/"
+SUPPORT_URL="http://www.xentaos.org/"
+BUG_REPORT_URL="http://www.xentaos.org/"
+VERSION_CODENAME=arok
+UBUNTU_CODENAME=xenial
+
+#edit informations in the /etc/linuxmint/info [ONLY IF YOU REMASTER LINUX MINT]
+cd $HOME/livecdtmp/edit/etc/linuxmint/
+sudo nano info
+
+#sample
+RELEASE=1.3
+CODENAME=arok
+EDITION="Cinnamon 32-bit"
+DESCRIPTION="Xenta OS 1.3 Arok"
+DESKTOP=Gnome
+TOOLKIT=GTK
+NEW_FEATURES_URL=http://www.xentaos.org/
+RELEASE_NOTES_URL=http://www.xentaos.org/
+USER_GUIDE_URL=help:xentaos
+GRUB_TITLE=Xenta OS 1.3 Cinnamon 32-bit
+
+# Edit wellcome screnn tty /etc/update-motd.d
+# 00-header 
+cd $HOME/livecdtmp/edit/etc/update-motd.d
+sudo nano 00-header 
+
+#sample
+[ -r /etc/lsb-release ] && . /etc/lsb-release
+
+if [ -z "$DISTRIB_DESCRIPTION" ] && [ -x /usr/bin/lsb_release ]; then
+	# Fall back to using the very slow lsb_release utility
+	DISTRIB_DESCRIPTION=$(lsb_release -s -d)
+fi
+
+printf "Welcome to %s (%s %s %s)\n" "$DISTRIB_DESCRIPTION" "$(uname -o)" "$(uname -r)" "$(uname -m)"
+
+
+
+# 10-help-text 
+cd $HOME/livecdtmp/edit/etc/update-motd.d
+sudo nano 10-help-text  
+
+#sample
+[ -r /etc/lsb-release ] && . /etc/lsb-release
+
+if [ -z "$DISTRIB_RELEASE" ] && [ -x /usr/bin/lsb_release ]; then
+# Fall back to using the very slow lsb_release utility
+	DISTRIB_RELEASE=$(lsb_release -sr)
+fi
+
+URL="http://www.xentaos.org/"
+
+printf "\n * Documentation:  %s\n" "$URL"

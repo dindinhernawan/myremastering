@@ -1,0 +1,30 @@
+#!/bin/bash
+########################################################################
+# XENTA REMASTER SCRIPT
+# AUTHOR    : XENTA OS
+# LICENSE   : GNU GPL 3.0
+# WEBSITE   : http://www.xentaos.org/
+########################################################################
+
+# Gunakan Perintah dibawah ini jika keluar dari chroot
+# Perintah Ini untuk membersihkan paket paket dari debian packet yang 
+# dari didapat dari cache saat memasang aplikasi atau paket dari apt dan aptitude
+apt-get clean
+aptitude clean
+
+# Perintah ini untuk membersihkan paket paket yang sudah tidak diperlukan lagi
+apt-get autoremove
+# Membersikan Chace dan Bash_History
+rm -rf /tmp/* ~/.bash_history
+
+# Menghapus ID mesin
+rm /var/lib/dbus/machine-id
+rm /sbin/initctl
+dpkg-divert --rename --remove /sbin/initctl
+
+# Memutuskan titik kait dari proc sys dan devpts
+umount /proc && umount /sys && umount /dev/pts
+exit
+
+# Memutuskan titik kait dari edit/dev/ (umount)
+sudo umount ./edit/dev/

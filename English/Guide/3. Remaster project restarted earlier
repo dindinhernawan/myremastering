@@ -1,0 +1,15 @@
+#!/bin/bash
+########################################################################3
+# XENTA REMASTER SCRIPT FOR MAKE DISTRO FROM ISO FILE
+# AUTHOR    : XENTA OS
+# LICENSE   : GNU GPL 3.0
+# WEB       : http://www.xentaos.org/
+########################################################################
+
+#Gunakan Perintah dibawah ini secara berurutan jika ingin memulai kembali proses remaster yang sebelumnya
+#Gunakan Perintah cd livecdtmp jika tidak berada di lokasi livecdtmp
+cd livecdtmp
+sudo mount --bind /dev/ edit/dev
+sudo chroot edit
+mount -t proc none /proc && mount -t sysfs none /sys && mount -t devpts none /dev/pts
+export HOME=/root && export LC_ALL=C

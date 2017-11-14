@@ -1,0 +1,12 @@
+#!/bin/bash
+# To edit this file in a location livecdtmp / edit / etc find legal and edit files with a text editor as root user
+# Or use the following command (using the nano text editor)
+cd $HOME/livecdtmp/edit/etc
+sudo nano legal
+
+The programs included with the Xenta OS system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Xenta OS comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.

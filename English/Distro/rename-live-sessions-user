@@ -1,0 +1,40 @@
+#!/bin/bash
+# Change the username and hostname Live CD
+# uncompress initrd.lz
+cd $HOME/livecdtmp/extract-cd/casper
+sudo su
+mkdir temp
+cd temp
+lzma -dc -S .lz ../initrd.lz | cpio -imvd --no-absolute-filenames
+
+
+
+# Edit Username dan hostname
+/etc/casper.conf
+################################################################################
+# This file should go in /etc/casper.conf
+# Supported variables are:
+# USERNAME, USERFULLNAME, HOST, BUILD_SYSTEM, FLAVOUR
+
+export USERNAME="xenta"
+export USERFULLNAME="Live session user"
+export HOST="xenta"
+export BUILD_SYSTEM="Ubuntu"
+
+# USERNAME and HOSTNAME as specified above won't be honoured and will be set to
+# flavour string acquired at boot time, unless you set FLAVOUR to any
+# non-empty string.
+
+export FLAVOUR="xenta"
+################################################################################
+
+#Edit Distributions Release
+/etc/os-release
+
+
+# make again / re compress initrd.lz
+cd $HOME/livecdtmp/extract-cd/casper/temp
+sudo su
+find . | cpio --quiet --dereference -o -H newc | lzma -7 > ../initrd.lz
+cd $HOME/livecdtmp/extract-cd/casper/
+rm -rf temp

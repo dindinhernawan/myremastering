@@ -1,0 +1,11 @@
+#!/bin/bash
+########################################################################3
+# XENTA REMASTER SCRIPT FOR MAKE DISTRO FROM ISO FILE
+# AUTHOR    : XENTA OS
+# LICENSE   : GNU GPL 3.0
+# WEB       : http://www.xentaos.org/
+########################################################################
+
+# Getting Started Software in Need
+# Open Terminal and Type the following command:
+sudo apt-get install squashfs-tools genisoimage resolvconf

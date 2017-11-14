@@ -1,0 +1,13 @@
+#!/bin/bash
+########################################################################
+# XENTA REMASTER SCRIPT
+# AUTHOR    : XENTA OS
+# LICENSE   : GNU GPL 3.0
+# WEBSITE   : http://www.xentaos.org/
+########################################################################
+
+# Periapan Awal adalah memasang perangkat lunak yang nantinya
+# Digunakan sebagai perkakas dalam pembuat distro remastering.
+# Perangkat lunak yang di Butuhkan
+# Buka Terminal (CTRL + ALT + T) dan Ketik perintah berikut :
+sudo apt-get install squashfs-tools genisoimage isolinux syslinux resolvconf -y
