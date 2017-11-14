@@ -1,9 +1,9 @@
 <h2>Panduan Remastering Distro GNU/Linux</h2>
 [Panduan] Sebuah Panduan Teknik Remastering yang dikembangkan oleh Dindin Hernawan.<br>
 Panduanya Menggunakan Peralatan sederhana dan semua serba perintah pada terminal GNU/linux.
-<hr>
 <p>Download E-Booknya Bahasa Indonesia (PDF) <a href='https://repository.xentaos.org/e-book/E-Book%20Panduan%20Remastering%20Dasar%20Edisi%20Public.pdf' alt='Download'>Download</a></p>
 <p>Sudah Pakai Teknik Saya? Ditunggu Traktiran Kopinya <a href='https://www.paypal.me/dindinG41TR3' alt='paypal'>Paypal</a></p>
+<hr>
 <h2>Bahasa Indonesia</h2>
 <a>Panduan :</a>
 <ol>
