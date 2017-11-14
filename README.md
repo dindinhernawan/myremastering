@@ -1,2 +1,2 @@
 # panduan-remastering
-[Panduan] Sebuah Panduan Teknik Remastering dikembangakn oleh Dindin Hernawan.
+[Panduan] Sebuah Panduan Teknik Remastering yang dikembangakan oleh Dindin Hernawan.
