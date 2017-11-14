@@ -1,4 +1,4 @@
-<h3>Panduan Remastering Distro GNU/Linux</h3>
+<h2>Panduan Remastering Distro GNU/Linux</h2>
 [Panduan] Sebuah Panduan Teknik Remastering yang dikembangkan oleh Dindin Hernawan.<br>
 Panduanya Menggunakan Peralatan sederhana dan semua serba perintah pada terminal GNU/linux.
 <hr>
@@ -23,11 +23,11 @@ Panduanya Menggunakan Peralatan sederhana dan semua serba perintah pada terminal
    <li>  Keluar dari Chroot Project Remaster.</li>
    <li>  Membuat Image ISO Project Remaster.</li>
 </ol>
-<h3>Thanks</h3>
+<h2>Thanks</h2>
 <ol>
    <li><a href='http://www.915tx.com/remaster/' alt='Pustaka'>http://www.915tx.com/</a></li>
    <li><a href='http://willhaley.com/blog/create-a-custom-debian-stretch-live-environment-ubuntu-17-zesty' alt='Pustaka'>http://willhaley.com/</a></li>
    <li><a href='https://github.com/feren/LiveCDCustomisationScripts' alt='Pustaka'>https://github.com/feren/</a></li>
 </ol>
-<h3>License</h3>
+<h2>License</h2>
 <a href='https://creativecommons.org/licenses/by-sa/4.0/ alt='cc-by-sa'>Attribution-ShareAlike 4.0 International  (CC BY-SA 4.0) </a>
