@@ -4,13 +4,6 @@ Panduanya Menggunakan Peralatan sederhana dan semua serba perintah pada terminal
 <hr>
 <p>Download E-Booknya Bahasa Indonesia (PDF) <a href='https://repository.xentaos.org/e-book/E-Book%20Panduan%20Remastering%20Dasar%20Edisi%20Public.pdf' alt='Download'>Download</a></p>
 <p>Sudah Pakai Teknik Saya? Ditunggu Traktiran Kopinya <a href='https://www.paypal.me/dindinG41TR3' alt='paypal'>Paypal</a></p>
-
-<a>Thanks</a>
-<ol>
-   <li><a href='http://www.915tx.com/remaster/' alt='Pustaka'>http://www.915tx.com/</a></li>
-   <li><a href='http://willhaley.com/blog/create-a-custom-debian-stretch-live-environment-ubuntu-17-zesty' alt='Pustaka'>http://willhaley.com/</a></li>
-   <li><a href='https://github.com/feren/LiveCDCustomisationScripts' alt='Pustaka'>https://github.com/feren/</a></li>
-</ol>
 <h2>English  Language</h2>
 <a>Guide :</a>
 <ol>
@@ -30,3 +23,11 @@ Panduanya Menggunakan Peralatan sederhana dan semua serba perintah pada terminal
    <li>  Keluar dari Chroot Project Remaster.</li>
    <li>  Membuat Image ISO Project Remaster.</li>
 </ol>
+<h3>Thanks</h3>
+<ol>
+   <li><a href='http://www.915tx.com/remaster/' alt='Pustaka'>http://www.915tx.com/</a></li>
+   <li><a href='http://willhaley.com/blog/create-a-custom-debian-stretch-live-environment-ubuntu-17-zesty' alt='Pustaka'>http://willhaley.com/</a></li>
+   <li><a href='https://github.com/feren/LiveCDCustomisationScripts' alt='Pustaka'>https://github.com/feren/</a></li>
+</ol>
+<h3>License</h3>
+<a href='https://creativecommons.org/licenses/by-sa/4.0/ alt='cc-by-sa'>Attribution-ShareAlike 4.0 International  (CC BY-SA 4.0) </a>
