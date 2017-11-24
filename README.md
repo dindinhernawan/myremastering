@@ -30,4 +30,4 @@ Panduanya Menggunakan Peralatan sederhana dan semua serba perintah pada terminal
    <li><a href='https://github.com/feren/LiveCDCustomisationScripts' alt='Pustaka'>https://github.com/feren/</a></li>
 </ol>
 <h2>License</h2>
-Licensed under a Creative Commons BY-SA 4.0 <a href='https://creativecommons.org/licenses/by-sa/4.0/ alt='cc-by-sa'>Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>
+Licensed under a Creative Commons BY-SA 4.0 <a href='https://creativecommons.org/licenses/by-sa/4.0/' alt='cc-by-sa'>Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>
