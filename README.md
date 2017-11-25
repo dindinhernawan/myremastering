@@ -28,6 +28,7 @@ Panduanya Menggunakan Peralatan sederhana dan semua serba perintah pada terminal
    <li><a href='http://www.915tx.com/remaster/' alt='Pustaka'>http://www.915tx.com/</a></li>
    <li><a href='http://willhaley.com/blog/create-a-custom-debian-stretch-live-environment-ubuntu-17-zesty' alt='Pustaka'>http://willhaley.com/</a></li>
    <li><a href='https://github.com/feren/LiveCDCustomisationScripts' alt='Pustaka'>https://github.com/feren/</a></li>
+   <li><a href='https://help.ubuntu.com/community/LiveCDCustomization' alt='Ubuntu'>https://help.ubuntu.com/</li>
 </ol>
 <h2>License</h2>
 Licensed under a Creative Commons BY-SA 4.0 <a href='https://creativecommons.org/licenses/by-sa/4.0/' alt='cc-by-sa'>Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a>
