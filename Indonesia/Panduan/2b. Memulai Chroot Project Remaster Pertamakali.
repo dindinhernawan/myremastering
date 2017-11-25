@@ -37,5 +37,6 @@ cd /etc/skel
 mkdir Desktop Documents Downloads Music Pictures Public Templates Videos
 
 # [ 8 ]---------------------------------------------------------------------------------
-# Ok anda sudah dalam mode chroot dari edit "silahkan edit mau ditambahkan paket atau mengurangi paket dan lain lain"
+# Ok anda sudah dalam mode chroot dari edit "silahkan edit mau ditambahkan paket atau 
+# mengurangi paket dan lain lain"
 cd /
