@@ -11,4 +11,4 @@
 # Digunakan sebagai perkakas dalam pembuat distro remastering.
 # Perangkat lunak yang di Butuhkan
 # Buka Terminal (CTRL + ALT + T) dan Ketik perintah berikut :
-sudo apt-get install squashfs-tools genisoimage isolinux syslinux resolvconf syslinux-utils isolinux-utils -y
+sudo apt-get install squashfs-tools genisoimage isolinux syslinux resolvconf syslinux-utils -y
