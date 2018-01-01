@@ -1,13 +1,11 @@
-Panduan
----
-**Chapter 1. Persiapan Perangkat Lunak.**
-> Berisi Panduan Script dan Perintah Perintah Untuk Memasang Perkakas di
+**Chapter 1. Persiapan Perangkat Lunak.**  
+Berisi Panduan Script dan Perintah Perintah Untuk Memasang Perkakas di
 Hostsistem dari Project Remaster. Hostsistem Disarankan Keluarga dari
 Debian atau Distro Keluarga Ubuntu. (Distro Selain Keluarga Debian dan 
 Ubuntu Belum di Test)
 
-**Chapter 2a. Membuat Kerangka Project Remaster.**
-> Berisi Panduan Script dan Perintah Perintah Untuk Membuat Kerangka dari
+**Chapter 2a. Membuat Kerangka Project Remaster.**  
+Berisi Panduan Script dan Perintah Perintah Untuk Membuat Kerangka dari
 Project Remaster Pertama Kali. 
 
 Keterangan Directory Kerangka Project Remaster :
@@ -26,7 +24,7 @@ Untuk Melanjutkan Project Remaster Sebelumnya.
 Panduannya ada di :
 "3.Memulai Kembali Chroot Project Remaster Sebelumnya".
 
-**(extract-cd)**
+**(extract-cd)**  
 extract-cd adalah sebuah struktur dari hasil extrak image ISO Distro
 Awal dari Project Remaster. Dihasilkan dari Mengektrak 
 **./mnt/**
@@ -39,19 +37,19 @@ mnt adalah sebuah directori sementara untuk mengaikatkan Image ISO Distro
 Awal dari Project Remaster. Setelah Selesai Membuat Kerangka Project Remaster
 Directory ini akan dihapus.
 
-**Chapter 2b. Memulai Chroot Project Remaster Pertamakali.**
-> Berisi Panduan Script dan Perintah Perintah Untuk Memulai Chroot Remaster   
+**Chapter 2b. Memulai Chroot Project Remaster Pertamakali.**   
+Berisi Panduan Script dan Perintah Perintah Untuk Memulai Chroot Remaster   
 Pertama Kali.
 
-**Chapter 3.Memulai Kembali Chroot Project Remaster Sebelumnya.**  
-> Berisi Panduan Script dan Perintah Perintah Untuk Memulai Kembali Chroot    
+**Chapter 3.Memulai Kembali Chroot Project Remaster Sebelumnya.**    
+Berisi Panduan Script dan Perintah Perintah Untuk Memulai Kembali Chroot    
 Project Remaster Sebelumnya.
 
 **Chapter 4.Keluar dari Chroot Project Remaster.**  
-> Berisi Panduan Script dan Perintah Perintah Untuk Keluar dari Chroot 
+Berisi Panduan Script dan Perintah Perintah Untuk Keluar dari Chroot 
 Project Remaster.
 
-**Chapter 5.Membuat Image ISO Project Remaster.**
-> Berisi Panduan Script dan Perintah Perintah Untuk Membuat Image ISO  
+**Chapter 5.Membuat Image ISO Project Remaster.**  
+Berisi Panduan Script dan Perintah Perintah Untuk Membuat Image ISO  
 dari Hasil Project Remaster.
 
