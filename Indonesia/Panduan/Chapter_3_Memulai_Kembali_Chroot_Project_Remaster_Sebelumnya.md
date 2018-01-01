@@ -11,7 +11,7 @@ Membuat kait (mount) /dev/.
 > sudo mount --bind /dev/ ./edit/dev/
 
 **[ 4 ]---------------------------------------------------------------------------------**  
-# Masuk dalam chroot dari folder "edit"
+Masuk dalam chroot dari folder "edit".  
 > sudo chroot ./edit
 
 **[ 5 ]---------------------------------------------------------------------------------**  
