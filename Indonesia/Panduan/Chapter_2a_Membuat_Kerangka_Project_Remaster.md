@@ -1,11 +1,3 @@
-#!/bin/bash
-########################################################################################
-# PANDUAN REMASTERING
-# AUTHOR    : XENTA OS
-# LICENSE   : CC BY-SA 4.0
-# WEBSITE   : http://www.xentaos.org/
-########################################################################################
-
 # [ 1 ]---------------------------------------------------------------------------------
 # Membuat Kerangka Kerja Remastering
 # Gunakan Perintah dibawah ini secara berurutan untuk memulai project remastering
