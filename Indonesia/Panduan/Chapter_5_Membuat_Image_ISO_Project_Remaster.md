@@ -16,7 +16,7 @@ Membuat Folder Kerangka dvd (casper).
 > sudo cp ./extract-cd/casper/filesystem.manifest ./extract-cd/casper/filesystem.manifest-desktop
 
 **[ 3 ]---------------------------------------------------------------------------------**  
-**PILIH SALAH SATU DIBAWAH INI MAU STANDAR COMPRESS ATAU HIGH COMPRESS**
+**PILIH SALAH SATU DIBAWAH INI MAU STANDAR COMPRESS ATAU HIGH COMPRESS**  
 **A. Membuat filesystem.squashfs dari Hasil Proyek Remastering STANDAR COMPRESS**
 > cd $HOME/livecdtmp/
 > sudo mksquashfs ./edit ./extract-cd/casper/filesystem.squashfs
