@@ -1,12 +1,12 @@
 Keterangan Panduan
 -----------------------------------------------------------------------------
-1.    Persiapan Perangkat Lunak.
+Chapter 1.    Persiapan Perangkat Lunak.
       Berisi Panduan Script dan Perintah Perintah Untuk Memasang Perkakas di
       Hostsistem dari Project Remaster. Hostsistem Disarankan Keluarga dari
       Debian atau Distro Keluarga Ubuntu. (Distro Selain Keluarga Debian dan 
       Ubuntu Belum di Test)
       
-2a.   Membuat Kerangka Project Remaster.
+Chapter 2a.   Membuat Kerangka Project Remaster.
       Berisi Panduan Script dan Perintah Perintah Untuk Membuat Kerangka dari
       Project Remaster Pertama Kali. 
 
@@ -39,19 +39,19 @@ Keterangan Panduan
         Awal dari Project Remaster. Setelah Selesai Membuat Kerangka Project Remaster
         Directory ini akan dihapus.
         
-2b.   Memulai Chroot Project Remaster Pertamakali.
+Chapter 2b.   Memulai Chroot Project Remaster Pertamakali.
       Berisi Panduan Script dan Perintah Perintah Untuk Memulai Chroot Remaster 
       Pertama Kali.
       
-3.    Memulai Kembali Chroot Project Remaster Sebelumnya.
+Chapter 3.    Memulai Kembali Chroot Project Remaster Sebelumnya.
       Berisi Panduan Script dan Perintah Perintah Untuk Memulai Kembali Chroot 
       Project Remaster Sebelumnya.
   
-4.    Keluar dari Chroot Project Remaster.
+Chapter 4.    Keluar dari Chroot Project Remaster.
       Berisi Panduan Script dan Perintah Perintah Untuk Keluar dari Chroot 
       Project Remaster.
   
-5.    Membuat Image ISO Project Remaster.
+Chapter 5.    Membuat Image ISO Project Remaster.
       Berisi Panduan Script dan Perintah Perintah Untuk Membuat Image ISO
       dari Hasil Project Remaster.
   
