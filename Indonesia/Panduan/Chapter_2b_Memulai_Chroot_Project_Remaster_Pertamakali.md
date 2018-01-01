@@ -29,6 +29,6 @@ Jika ingin Mengulang lagi Remastering sebelumnya silahkan dilewati 2 perintah di
 > mkdir Desktop Documents Downloads Music Pictures Public Templates Videos
 
 **[ 8 ]---------------------------------------------------------------------------------**  
-Ok anda sudah dalam mode chroot dari edit "silahkan edit mau ditambahkan paket atau  
-mengurangi paket dan lain lain"
+Ok anda sudah dalam mode chroot dari edit. Silahkan edit mau ditambahkan paket atau  
+mengurangi paket dan lain lain.
 > cd /
