@@ -7,14 +7,15 @@ FILE YANG LAMA WAJIB HAPUS JIKA TIDAK AKAN MENGALAMI ERROR
 
 **[ 2 ]---------------------------------------------------------------------------------**  
 Membuat Folder Kerangka dvd (casper).  
-> cd $HOME/livecdtmp/
-> sudo chmod +w ./extract-cd/casper/filesystem.manifest
-> sudo su
-> sudo chroot ./edit dpkg-query -W --showformat='${Package} ${Version}\n' > ./extract-cd/casper/filesystem.manifest
-> printf $(sudo du -sx --block-size=1 edit | cut -f1) > ./extract-cd/casper/filesystem.size
-> exit
-> sudo cp ./extract-cd/casper/filesystem.manifest ./extract-cd/casper/filesystem.manifest-desktop
-
+```
+cd $HOME/livecdtmp/
+sudo chmod +w ./extract-cd/casper/filesystem.manifest
+sudo su
+sudo chroot ./edit dpkg-query -W --showformat='${Package} ${Version}\n' > ./extract-cd/casper/filesystem.manifest
+printf $(sudo du -sx --block-size=1 edit | cut -f1) > ./extract-cd/casper/filesystem.size
+exit
+sudo cp ./extract-cd/casper/filesystem.manifest ./extract-cd/casper/filesystem.manifest-desktop
+```
 **[ 3 ]---------------------------------------------------------------------------------**  
 **PILIH SALAH SATU DIBAWAH INI MAU STANDAR COMPRESS ATAU HIGH COMPRESS**  
 **A. Membuat filesystem.squashfs dari Hasil Proyek Remastering STANDAR COMPRESS**
