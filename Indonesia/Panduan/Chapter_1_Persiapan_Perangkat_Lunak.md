@@ -1,4 +1,4 @@
-**A) Memasang Perangkat Lunak yang dibutuhkan.**  
+**[ 1 ]---------------------------------------------------------------------------------**  
 Periapan Awal adalah memasang perangkat lunak yang nantinya digunakan sebagai perkakas dalam pembuat distro remastering.  
 Buka Terminal (CTRL + ALT + T) dan Ketik perintah berikut :
 
