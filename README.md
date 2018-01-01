@@ -1,8 +1,6 @@
 <h2>Panduan Remastering Distro GNU/Linux</h2>
 Panduan Remastering yang dikembangkan oleh Dindin Hernawan. 
-Menggunakan Peralatan sederhana dan semua serba perintah pada terminal GNU/linux.
-<p>Download E-Booknya Bahasa Indonesia Edisi Linux Mint (PDF) <a href='https://drive.google.com/open?id=13psYBMbAJgxRyHUgUPeusfWeQ_2i48ap' alt='Download'>Download</a></p>
-<p>Traktiran Kopinya <a href='https://www.paypal.me/dindinG41TR3' alt='paypal'>Paypal</a></p>
+Menggunakan Peralatan sederhana dan semua serba perintah pada terminal GNU/linux. Download E-Booknya Bahasa Indonesia Edisi Linux Mint (PDF) <a href='https://drive.google.com/open?id=13psYBMbAJgxRyHUgUPeusfWeQ_2i48ap' alt='Download'>Download</a> Traktiran Kopinya <a href='https://www.paypal.me/dindinG41TR3' alt='paypal'>Paypal</a>
 <hr>
 <h2>Bahasa Indonesia</h2>
 <a>Panduan :</a>
