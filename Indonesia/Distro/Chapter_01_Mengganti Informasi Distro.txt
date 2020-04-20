@@ -1,8 +1,9 @@
-=================================================
-pastikan sudah masuk di mode chroot baca 
-di Panduan Nome 3
-=================================================
-## issue
+=================================================  
+pastikan sudah masuk di mode chroot baca  
+di Panduan Nome 3  
+=================================================  
+
+## issue  
 edit issue di /etc/issue  
 
 > cd /etc
@@ -25,17 +26,17 @@ os release adalah symslink dari /usr/lib/os-release link > /etc/os-release
 cd /etc
 nano os-release
 Silahkan Ganti Isinya Contoh :
-NAME="Xenta OS"
-VERSION="1.3 (Arok)"
-ID=xentaos
-ID_LIKE=ubuntu
-PRETTY_NAME="Xenta OS 1.3"
-VERSION_ID="1.3"
-HOME_URL="http://www.xentaos.org/"
-SUPPORT_URL="http://www.xentaos.org/"
-BUG_REPORT_URL="http://www.xentaos.org/"
-VERSION_CODENAME=arok
-UBUNTU_CODENAME=xenial
+NAME="Xenta OS"  
+VERSION="1.3 (Arok)"  
+ID=xentaos  
+ID_LIKE=ubuntu  
+PRETTY_NAME="Xenta OS 1.3"  
+VERSION_ID="1.3"  
+HOME_URL="http://www.xentaos.org/"  
+SUPPORT_URL="http://www.xentaos.org/"  
+BUG_REPORT_URL="http://www.xentaos.org/"  
+VERSION_CODENAME=arok  
+UBUNTU_CODENAME=xenial  
 
 =================================================
  4. HANYA untuk Linux Mint mengganti info
