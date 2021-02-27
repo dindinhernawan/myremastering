@@ -1,5 +1,5 @@
 =================================================  
-pastikan sudah masuk di mode chroot baca  
+Pastikan sudah masuk di mode chroot baca  
 di Panduan Nome 3  
 =================================================  
 
@@ -9,7 +9,7 @@ edit issue di /etc/issue
 > cd /etc
 > nano issue  
 Silahkan Ganti Isinya Contoh :  
-Xenta OS 1.3 Arok \n \l
+Xenta OS 2.0 Batik \n \l
 
 =================================================
  2. issue.net
@@ -17,7 +17,7 @@ edit issue di /etc/issue.net
 cd /etc
 nano issue.net
 Silahkan Ganti Isinya Contoh :
-Xenta OS 1.3 Arok
+Xenta OS 2.0 Batik
 
 =================================================
  3. os-release
@@ -27,15 +27,15 @@ cd /etc
 nano os-release
 Silahkan Ganti Isinya Contoh :
 NAME="Xenta OS"  
-VERSION="1.3 (Arok)"  
+VERSION="2.0 (Batik)"  
 ID=xentaos  
 ID_LIKE=ubuntu  
-PRETTY_NAME="Xenta OS 1.3"  
-VERSION_ID="1.3"  
-HOME_URL="http://www.xentaos.org/"  
-SUPPORT_URL="http://www.xentaos.org/"  
-BUG_REPORT_URL="http://www.xentaos.org/"  
-VERSION_CODENAME=arok  
+PRETTY_NAME="Xenta OS 2.0"  
+VERSION_ID="2.0"  
+HOME_URL="http://www.xentaos.com/"  
+SUPPORT_URL="http://www.xentaos.com/"  
+BUG_REPORT_URL="http://www.xentaos.com/"  
+VERSION_CODENAME=batik  
 UBUNTU_CODENAME=xenial  
 
 =================================================
@@ -44,16 +44,16 @@ edit info di /etc/linuxmint/info
 cd /etc/linuxmint/
 nano info
 Silahkan Ganti Isinya Contoh :
-RELEASE=1.3
-CODENAME=arok
+RELEASE=2.0
+CODENAME=batik
 EDITION="Cinnamon 32-bit"
-DESCRIPTION="Xenta OS 1.3 Arok"
+DESCRIPTION="Xenta OS 2.0 Batik"
 DESKTOP=Gnome
 TOOLKIT=GTK
-NEW_FEATURES_URL=http://www.xentaos.org/
-RELEASE_NOTES_URL=http://www.xentaos.org/
+NEW_FEATURES_URL=http://www.xentaos.com/
+RELEASE_NOTES_URL=http://www.xentaos.com/
 USER_GUIDE_URL=help:xentaos
-GRUB_TITLE=Xenta OS 1.3 Cinnamon 32-bit
+GRUB_TITLE=Xenta OS 2.0 Cinnamon 32-bit
 
 =================================================
  5. os-release
@@ -62,9 +62,9 @@ cd /etc/
 nano os-release
 Silahkan Ganti Isinya Contoh :
 DISTRIB_ID=xentaos
-DISTRIB_RELEASE=1.3
-DISTRIB_CODENAME=arok
-DISTRIB_DESCRIPTION="Xenta OS 1.3 LTS Arok"
+DISTRIB_RELEASE=2.0
+DISTRIB_CODENAME=batik
+DISTRIB_DESCRIPTION="Xenta OS 2.0 LTS Batik"
 
 =================================================
  6. 00-help-text
@@ -81,7 +81,7 @@ if [ -z "$DISTRIB_RELEASE" ] && [ -x /usr/bin/lsb_release ]; then
 	DISTRIB_RELEASE=$(lsb_release -sr)
 fi
 
-URL="http://www.xentaos.org/"
+URL="http://www.xentaos.com/"
 
 printf "\n * Documentation:  %s\n" "$URL"
 '''
