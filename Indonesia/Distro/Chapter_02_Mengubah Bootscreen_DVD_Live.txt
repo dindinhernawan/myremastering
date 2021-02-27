@@ -1,8 +1,7 @@
-#!/bin/bash
 ########################################################################
 # AUTHOR    : XENTA OS
 # LICENSE   : GNU GPL 3.0
-# WEBSITE   : http://www.xentaos.org/
+# WEBSITE   : http://www.xentaos.com/
 ########################################################################
 
 # Mengubah Bootscreen DVD Live
@@ -33,7 +32,7 @@ Description=Text mode theme
 ModuleName=ubuntu-text
 
 [ubuntu-text]
-title=Xenta OS 1.3
+title=Xenta OS 2.0
 black=0x000000
 white=0xeeeeee
 brown=0x80c33b
