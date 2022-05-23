@@ -1,8 +1,7 @@
-#!/bin/bash
 ########################################################################
 # AUTHOR    : XENTA OS
 # LICENSE   : GNU GPL 3.0
-# WEBSITE   : http://www.xentaos.org/
+# WEBSITE   : http://www.xentaos.com/
 ########################################################################
 
 # Pertama silahkan buat file iso yang sudah diremaster dan sudah di sertakan theme, icons dan wallpaper

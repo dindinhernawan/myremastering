@@ -16,7 +16,7 @@ package=myremastering
 version="Update"
 figlet $package
 echo " Set Remote... "
-git remote set-url origin git@github.com:dindinW101/$package.git
+git remote set-url origin git@github.com:dindinG41TR3/$package.git
 echo " Pull Request Github... "
 git pull
 echo " Git Add Local... "

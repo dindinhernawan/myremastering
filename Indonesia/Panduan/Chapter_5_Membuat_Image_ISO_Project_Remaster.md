@@ -48,7 +48,7 @@ cd $HOME/livecdtmp/extract-cd/
 find -type f -print0 | sudo xargs -0 md5sum | grep -v isolinux/boot.cat | sudo tee MD5SUMS
 ```
 **[ 6 ]---------------------------------------------------------------------------------**  
-**PILIH SALAH SATU DIBAWAH INI MAU STANDAR COMPRESS ATAU HIGH COMPRESS**
+**PILIH SALAH SATU DIBAWAH INI MAU STANDAR COMPRESS ATAU HIGH COMPRESS**  
 A. Membuat File image ISO Standar Kurang Dari 4GB**  
 Silahkan Ganti nama iso xentaos-1.3.2-cinnamon-amd64 sesuai yang anda inginkan.  
 ```
