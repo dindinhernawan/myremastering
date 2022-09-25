@@ -21,3 +21,4 @@ tar -zcvf artwork.tar.gz .config .gconf .cinnamon .mozilla
 # copykan file artwork.tar.gz dan extact
 # hapus folder .config .gconf .cinnamon .mozilla di /livecdtmp/edit/etc/skel/
 # copykan folder artwork yang sudah diextrack .config .gconf .cinnamon .mozilla ke folder livecdtmp/edit/etc/skel/
+# Gunakan perintah ini chown -R root:root .config .gconf .cinnamon .mozilla 
